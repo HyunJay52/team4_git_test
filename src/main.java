@@ -12,14 +12,14 @@ public class main {
 	//초기 관리자 모드 
 	public void admin() { //관리자 모드 
 		do {
-		Login.id=input("아이디를 입력하세요.");
-		Login.pwd = input("비밀번호를 입력하세요.");
+		Login.id=input("아이디를 입력하세요");
+		Login.pwd = input("비밀번호를 입력하세요");
 		if (Login.loginCheck()==true) {
 			break;
 		}
 		}while(true);
 		System.out.println();
-		System.out.println("=관리자모드@실행=");
+		System.out.println("=관리자모드@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@실행=");
 		System.out.println();
 		do {
 			
