@@ -1,5 +1,9 @@
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.Set;
 
 public class main {
+	Scanner scan = new Scanner(System.in);
 
 	public main() {
 		// TODO Auto-generated constructor stub
@@ -96,6 +100,10 @@ public class main {
 				System.out.println("=======================");
 				}
 			}
+		public String input(String msg) {
+			System.out.println(msg);
+			return scan.nextLine();
+		}
 	public static void main(String[] args) {
 		new main().start();
 	}
