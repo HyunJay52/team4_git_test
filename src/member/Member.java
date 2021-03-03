@@ -1,5 +1,4 @@
 package member;
-
 public class Member {
 
 	public Member() {
